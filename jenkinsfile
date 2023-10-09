@@ -10,6 +10,7 @@ pipeline {
  stage('build web') { 
             steps {
                echo "build"
+               sh"cd $WORKSPACE" 
             
             }
         }
