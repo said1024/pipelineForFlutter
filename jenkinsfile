@@ -1,8 +1,6 @@
 pipeline {
     agent any 
-environment {
-        flutter = "/root/flutter/flutter/bin"
-    }
+
     stages {
         stage('clonings') { 
             steps {
