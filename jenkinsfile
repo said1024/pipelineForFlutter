@@ -14,7 +14,7 @@ pipeline {
  stage('build web') { 
             steps {
                echo "build"
-               sh"sudo flutter --version" 
+               sh"flutter --version" 
                  
             
             }
