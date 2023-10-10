@@ -14,7 +14,7 @@ environment {
  stage('build web') { 
             steps {
                echo "build"
-               sh"flutter build web" 
+               sh"flutter --version" 
                  
             
             }
