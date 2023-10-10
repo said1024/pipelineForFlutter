@@ -1,7 +1,7 @@
 pipeline {
     agent any 
 environment {
-        PATH = "${PATH}:/root/flutter/flutter/bin"
+        PATH = "${PATH}:/opt/flutter/bin"
     }
 
     stages {
