@@ -1,8 +1,8 @@
 pipeline {
     agent any 
-//environment {
-       // PATH = "${PATH}:/root/flutter/flutter/bin"
-  //  }
+environment {
+        PATH = "${PATH}:/root/flutter/flutter/bin"
+    }
 
     stages {
         stage('clonings') { 
